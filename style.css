@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.menu {
+  margin-bottom: 20px;
+}
+
+.item {
+  margin: 10px 0;
+}
+
+button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#cart {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+#ncyu {
+  position: absolute;
+  border: solid 5px gold;
+  top: 100px;
+  right: 100px;
+}
+#ico {
+  width: 300px;
+}

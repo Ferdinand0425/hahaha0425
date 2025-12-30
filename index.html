@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>期末專案</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <body onLoad="show()">
+  <div id="ncyu">
+    <img id="ico" src="" alt="icon">
+  </div>
+  <h1>~沉默的旅人~</h1>
+  <h2>價目表</h2>
+  <div class="menu">
+    <div class="item">
+      <span>迷幻蘑菇彩虹泡泡雞尾酒 - $999</span>
+      <button onclick="addToCart('迷幻蘑菇彩虹泡泡雞尾酒', 999)">加入購物車</button>
+    </div>
+    <div class="item">
+      <span>藍色窗簾憂鬱檸檬苦艾酒 - $444</span>
+      <button onclick="addToCart('藍色窗簾憂鬱檸檬苦艾酒', 444)">加入購物車</button>
+    </div>
+    <div class="item">
+      <span>烈焰玫瑰激情四射威士忌 - $888</span>
+      <button onclick="addToCart('烈焰玫瑰激情四射威士忌', 888)">加入購物車</button>
+    </div>
+    <div class="item">
+      <span>快樂沙漠與奔跑駱駝琴酒 - $777</span>
+      <button onclick="addToCart('快樂沙漠與奔跑駱駝琴酒', 777)">加入購物車</button>
+    </div>
+    <div class="item">
+      <span>傷心地滋味- $9876</span>
+      <button onclick="addToCart('傷心地滋味', 9876)">加入購物車</button>
+    </div>
+    <div class="item">
+      <span>無上地喜悅- $666</span>
+      <button onclick="addToCart('無上地喜悅', 666)">加入購物車</button>
+    </div>
+    <div class="item">
+      <span>今日特調 - $555</span>
+      <button onclick="addToCart('今日特調', 555)">加入購物車</button>
+    </div>
+    <div class="item">
+      <span>微笑炸物拼盤 - $222</span>
+      <button onclick="addToCart('微笑炸物拼盤', 222)">加入購物車</button>
+    </div>
+    <div class="item">
+      <span>法式甜點組合 - $222</span>
+      <button onclick="addToCart('法式甜點組合', 222)">加入購物車</button>
+    </div>
+  </div>
+
+  <h2>購物車</h2>
+  <ul id="cart"></ul>
+  <p>總價: $<span id="total">0</span></p>
+  <button id="checkoutBtn">結帳</button>
+
+  <div id="checkoutResult"></div>
+</body>
+
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
